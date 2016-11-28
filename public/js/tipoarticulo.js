@@ -47,7 +47,7 @@ $(document).ready(function() {
 	                    $("#idtiparticulo").val(-1);
 	                } else {
 	                    //alert('Guardo');
-	                    $("#tblTipoArticulo tbody").prepend(res);
+	                    $("#tblArticulo tbody").prepend(res);
 	                }
 	                $("#dlgSetTipoArticulo").dialog("close");
 	                
